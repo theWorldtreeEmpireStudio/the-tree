@@ -6,6 +6,8 @@ public class TIME : MonoBehaviour
 	public int month;
 	public float month1 = 1.0f;
 	public int year = 0;
+    public Material daymat;
+    public Material nightmat;
 	// Use this for initialization
 	void Start ()
 	{
@@ -22,6 +24,26 @@ public class TIME : MonoBehaviour
 			month1 = 1.0f;
 			month = 1;
 		}
+        if ((month/4)%2==0)
+        {
+            changeskybox(true);
+        }
+        else
+        {
+            changeskybox(false);
+        }
+        
 	}
+    void changeskybox(bool day)
+    {
+        if (day)
+        {
+            RenderSettings.skybox = daymat;
+        }
+        else
+        {
+            RenderSettings.skybox = nightmat;
+        }
+    }
 }
 
