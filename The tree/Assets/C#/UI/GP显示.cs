@@ -4,19 +4,17 @@ using System.Collections;
 
 public class GP显示 : MonoBehaviour
 {
-	public int gp;
+    GameObject scr;
 	// Use this for initialization
 	void Start ()
 	{
-	
-	}
+        scr = GameObject.FindGameObjectWithTag("fscontrol");
+    }
 	
 	// Update is called once per frame
 	void Update ()
 	{
-		gp = GameObject.Find("游戏管理").GetComponent<GP>().gp;
-		Debug.Log ("gp=" + gp);
-		this.GetComponent<Text> ().text = gp.ToString();
+		this.GetComponent<Text> ().text = scr.GetComponent<GP>().gp.ToString();
 	}
 }
 
