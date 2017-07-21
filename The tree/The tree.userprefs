@@ -9,8 +9,8 @@
       <File FileName="Assets\C#\属性及变量\HIGH.cs" Line="1" Column="1" />
       <File FileName="Assets\C#\属性及变量\HP.cs" Line="1" Column="1" />
       <File FileName="Assets\C#\属性及变量\WATER.cs" Line="1" Column="1" />
-      <File FileName="Assets\C#\camera_move.cs" Line="14" Column="77" />
-      <File FileName="Assets\C#\utility.cs" Line="17" Column="22" />
+      <File FileName="Assets\C#\camera_move.cs" Line="26" Column="68" />
+      <File FileName="Assets\C#\utility.cs" Line="1" Column="1" />
       <File FileName="Assets\C#\gamestart.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>

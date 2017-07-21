@@ -1,7 +1,7 @@
+﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2008
-
-Project("{B1A332B5-B302-8884-E2F2-911AB3928CAB}") = "The tree", "Assembly-CSharp.csproj", "{C572AF7E-0E3E-5E0F-D52C-CE35D2A3A655}"
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "The tree", "Assembly-CSharp.csproj", "{C572AF7E-0E3E-5E0F-D52C-CE35D2A3A655}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
