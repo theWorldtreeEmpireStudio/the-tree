@@ -52,14 +52,20 @@
      <Compile Include="Assets\C#\UI\HP显示.cs" />
      <Compile Include="Assets\C#\UI\HP条.cs" />
      <Compile Include="Assets\C#\UI\WR显示.cs" />
+     <Compile Include="Assets\C#\gamestart.cs" />
+     <Compile Include="Assets\C#\utility.cs" />
      <Compile Include="Assets\C#\属性及变量\GP.cs" />
      <Compile Include="Assets\C#\属性及变量\HIGH.cs" />
      <Compile Include="Assets\C#\属性及变量\HP.cs" />
      <Compile Include="Assets\C#\属性及变量\TIME.cs" />
      <Compile Include="Assets\C#\属性及变量\WATER.cs" />
      <Compile Include="Assets\C#\属性及变量\WEATHER.cs" />
+     <Compile Include="Assets\camera_move.cs" />
      <Compile Include="Assets\生成敌人.cs" />
      <Compile Include="Assets\相机移动.cs" />
+ <Reference Include="UnityEngine.Advertisements">
+ <HintPath>D:/unity3d/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/unity3d/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
@@ -74,6 +80,9 @@
  </Reference>
  <Reference Include="UnityEngine.HoloLens">
  <HintPath>D:/unity3d/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Purchasing">
+ <HintPath>D:/unity3d/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.VR">
  <HintPath>D:/unity3d/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
