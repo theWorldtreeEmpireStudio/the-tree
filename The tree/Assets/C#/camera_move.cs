@@ -28,7 +28,7 @@ public class camera_move : MonoBehaviour {
 		{
 			transform.Translate(Vector2.up * Time.deltaTime * movespeed);
 		}
-		if (Input.GetAxis("Mouse ScrollWheel") <0&&transform.localPosition.z>-730)
+		if (Input.GetAxis("Mouse ScrollWheel") <0&&transform.localPosition.z>-761)
 		{  
 			transform.Translate(Vector3.back * Time.deltaTime * movespeed*0.5f);
 		}
