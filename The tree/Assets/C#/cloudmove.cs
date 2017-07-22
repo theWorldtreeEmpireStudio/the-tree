@@ -11,6 +11,6 @@ public class cloudmove : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        this.transform.Translate(new Vector3(-1, 0, 0));
+        this.transform.Translate(new Vector3(-2, 0, 0));
 	}
 }

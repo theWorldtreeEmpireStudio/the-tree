@@ -17,7 +17,7 @@ public class createcloud : MonoBehaviour {
         list  = new LinkedList<Object>();
         for (int i = 0; i < 20; i++)
         {
-            createat(rand.Next(-500, 3000), rand.Next(275, 500));
+            createat(rand.Next(-500, 3000), rand.Next(350, 1200));
         }
         InvokeRepeating("create", 0, 4);
     }
@@ -58,6 +58,6 @@ public class createcloud : MonoBehaviour {
     {
         Destroy((GameObject)list.First.Value);
         list.RemoveFirst();
-        createat(3000, rand.Next(275, 500));
+        createat(2550, rand.Next(350, 1200));
     }
 }
