@@ -229,7 +229,9 @@
     <Compile Include="Assets\C#\UI\GP显示.cs" />
     <Compile Include="Assets\C#\UI\HP显示.cs" />
     <Compile Include="Assets\C#\UI\HP条.cs" />
+    <Compile Include="Assets\C#\UI\month显示.cs" />
     <Compile Include="Assets\C#\UI\WR显示.cs" />
+    <Compile Include="Assets\C#\UI\year显示.cs" />
     <Compile Include="Assets\C#\utility.cs" />
     <Compile Include="Assets\C#\属性及变量\GP.cs" />
     <Compile Include="Assets\C#\属性及变量\HIGH.cs" />

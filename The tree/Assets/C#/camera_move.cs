@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class camera_move : MonoBehaviour {
-    public float movespeed = 200.0f;
+    public float movespeed = 400.0f;
     // Use this for initialization
     void Start () {
 		
@@ -29,11 +29,11 @@ public class camera_move : MonoBehaviour {
 		}
 		if (Input.GetAxis("Mouse ScrollWheel") <0&&transform.localPosition.z>-988)
 		{  
-			transform.Translate(Vector3.back * Time.deltaTime * movespeed);
+			transform.Translate(Vector3.back * Time.deltaTime * movespeed*0.5f);
 		}
 		if (Input.GetAxis("Mouse ScrollWheel") > 0&&transform.localPosition.z<-521)
 		{
-			transform.Translate(Vector3.forward * Time.deltaTime * movespeed);
+			transform.Translate(Vector3.forward * Time.deltaTime * movespeed*0.5f);
 		}  
     }
 }
