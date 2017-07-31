@@ -12,15 +12,15 @@ public class camera_move : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (Input.GetKey(KeyCode.RightArrow)&&transform.localPosition.x<2000)
+        if (Input.GetKey(KeyCode.RightArrow)&&transform.localPosition.x<2507)
         {
             transform.Translate(Vector2.right * Time.deltaTime * movespeed);
         }
-        if (Input.GetKey(KeyCode.LeftArrow)&& transform.localPosition.x>-1100)
+        if (Input.GetKey(KeyCode.LeftArrow)&& transform.localPosition.x>-1448)
         {
             transform.Translate(Vector2.left * Time.deltaTime * movespeed);
         }
-		if (Input.GetKey(KeyCode.DownArrow)&& transform.localPosition.y>-178)
+		if (Input.GetKey(KeyCode.DownArrow)&& transform.localPosition.y>-211)
 		{
 			transform.Translate(Vector2.down * Time.deltaTime * movespeed);
 		}
@@ -28,7 +28,7 @@ public class camera_move : MonoBehaviour {
 		{
 			transform.Translate(Vector2.up * Time.deltaTime * movespeed);
 		}
-		if (Input.GetAxis("Mouse ScrollWheel") <0&&transform.localPosition.z>-761)
+		if (Input.GetAxis("Mouse ScrollWheel") <0&&transform.localPosition.z>-970)
 		{  
 			transform.Translate(Vector3.back * Time.deltaTime * movespeed*0.5f);
 		}
