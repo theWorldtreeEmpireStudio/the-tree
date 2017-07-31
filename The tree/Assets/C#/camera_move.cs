@@ -12,11 +12,11 @@ public class camera_move : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (Input.GetKey(KeyCode.RightArrow)&&transform.localPosition.x<2507)
+        if (Input.GetKey(KeyCode.RightArrow)&&transform.localPosition.x<2450)
         {
             transform.Translate(Vector2.right * Time.deltaTime * movespeed);
         }
-        if (Input.GetKey(KeyCode.LeftArrow)&& transform.localPosition.x>-1448)
+        if (Input.GetKey(KeyCode.LeftArrow)&& transform.localPosition.x>-1350)
         {
             transform.Translate(Vector2.left * Time.deltaTime * movespeed);
         }
