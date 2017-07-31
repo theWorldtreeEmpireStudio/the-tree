@@ -14,9 +14,15 @@ public class utility : MonoBehaviour{
     bool issettingbranch = false;
     SphereCollider k;
     public int branchleft = 0;
+    public int currentbranch;
 
-	// Use this for initialization
-	public void exit()
+    public int[,] rectangle = {
+            { -900,-800,167,226}
+        };
+
+
+    // Use this for initialization
+    public void exit()
     {
         Application.Quit();
     }
@@ -36,10 +42,14 @@ public class utility : MonoBehaviour{
         }
         
     }
-    public void savebranch()
+    public void savebranch(int index)
     {
         Vector3 pos = temp.transform.position;
-        if (pos.x>-707&&pos.x<-639&&pos.y>133&&pos.y<183)
+        cond[0] = pos.x > rectangle[index, 0];
+        cond[1] = pos.x < rectangle[index, 1];
+        cond[2] = pos.y > rectangle[index, 2];
+        cond[3] = pos.y < rectangle[index, 3];
+        if (pos.x>rectangle[index,0]&&pos.x< rectangle[index, 1] && pos.y> rectangle[index, 2] && pos.y< rectangle[index, 3])
         {
             temp2 = Instantiate(branch2);
             temp2.transform.position = new Vector3(temp.transform.position.x, temp.transform.position.y);
@@ -54,5 +64,6 @@ public class utility : MonoBehaviour{
             temp = null;
         }
         issettingbranch = false;
+
     }
 }

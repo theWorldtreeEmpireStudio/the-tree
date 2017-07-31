@@ -6,6 +6,7 @@ public class branch : MonoBehaviour {
     public GameObject a;
     Vector3 offset;
     public bool set = true;
+    
     private void OnMouseDown()
     {
         if (set)
