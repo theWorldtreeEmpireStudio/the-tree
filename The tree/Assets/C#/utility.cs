@@ -45,10 +45,7 @@ public class utility : MonoBehaviour{
     public void savebranch(int index)
     {
         Vector3 pos = temp.transform.position;
-        cond[0] = pos.x > rectangle[index, 0];
-        cond[1] = pos.x < rectangle[index, 1];
-        cond[2] = pos.y > rectangle[index, 2];
-        cond[3] = pos.y < rectangle[index, 3];
+
         if (pos.x>rectangle[index,0]&&pos.x< rectangle[index, 1] && pos.y> rectangle[index, 2] && pos.y< rectangle[index, 3])
         {
             temp2 = Instantiate(branch2);
