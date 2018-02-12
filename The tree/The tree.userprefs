@@ -1,30 +1,11 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\Entity\EntityManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\Entity\Enemy\WoodCutter.cs">
     <Files>
-      <File FileName="Assets\C#\NPC\NPC属性.cs" Line="9" Column="2" />
-      <File FileName="Assets\C#\NPC\伐木工.cs" Line="13" Column="20" />
-      <File FileName="Assets\C#\属性及变量\TIME.cs" Line="1" Column="1" />
-      <File FileName="Assets\C#\属性及变量\WEATHER.cs" Line="1" Column="1" />
-      <File FileName="Assets\C#\属性及变量\HIGH.cs" Line="1" Column="1" />
-      <File FileName="Assets\C#\属性及变量\HP.cs" Line="1" Column="1" />
-      <File FileName="Assets\C#\属性及变量\WATER.cs" Line="1" Column="1" />
-      <File FileName="Assets\C#\camera_move.cs" Line="1" Column="1" />
-      <File FileName="Assets\C#\utility.cs" Line="1" Column="1" />
-      <File FileName="Assets\C#\gamestart.cs" Line="1" Column="1" />
-      <File FileName="Assets\C#\UI\GP显示.cs" Line="1" Column="1" />
-      <File FileName="Assets\C#\UI\HP显示.cs" Line="1" Column="1" />
-      <File FileName="Assets\C#\UI\HP条.cs" Line="1" Column="1" />
-      <File FileName="Assets\C#\属性及变量\GP.cs" Line="1" Column="1" />
-      <File FileName="Assets\C#\UI\jnmbkg.cs" Line="1" Column="1" />
-      <File FileName="Assets\C#\UI\WR显示.cs" Line="1" Column="1" />
-      <File FileName="Assets\C#\UI\year显示.cs" Line="1" Column="1" />
-      <File FileName="Assets\C#\生成敌人.cs" Line="1" Column="1" />
-      <File FileName="Assets\Script\Entity\MovingEntity.cs" Line="18" Column="18" />
+      <File FileName="Assets\Script\Entity\MovingEntity.cs" Line="14" Column="3" />
       <File FileName="Assets\Script\Entity\BaseEntity.cs" Line="10" Column="2" />
-      <File FileName="Assets\C#\branch.cs" Line="1" Column="1" />
-      <File FileName="Assets\Script\Entity\Enemy\WoodCutter.cs" Line="16" Column="17" />
-      <File FileName="Assets\Script\Entity\EntityManager.cs" Line="30" Column="3" />
+      <File FileName="Assets\Script\Entity\Enemy\WoodCutter.cs" Line="10" Column="40" />
+      <File FileName="Assets\Script\Entity\EntityManager.cs" Line="39" Column="8" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

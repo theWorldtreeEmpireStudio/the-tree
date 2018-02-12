@@ -11,7 +11,6 @@ public class MovingEntity : BaseEntity {
 
 	// Use this for initialization
 	void Start () {
-		m_direction = new Vector3 (-1, 0,0); //向左边移动
 	}
 	
 	// Update is called once per frame

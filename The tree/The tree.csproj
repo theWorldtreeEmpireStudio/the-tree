@@ -220,50 +220,35 @@
     <Reference Include="UnityEngine.Purchasing">
       <HintPath>Library\UnityAssemblies\UnityEngine.Purchasing.dll</HintPath>
     </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>Assets\Plugins\Assemblies\Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="Ludiq.Core.Runtime">
-      <HintPath>Assets\Plugins\Assemblies\Ludiq.Core.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Bolt.State.Editor">
-      <HintPath>Assets\Plugins\Assemblies\Bolt.State.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Antlr3.Runtime">
       <HintPath>Assets\Plugins\Assemblies\Antlr3.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Ludiq.Platforms">
-      <HintPath>Assets\Plugins\Assemblies\Ludiq.Platforms.dll</HintPath>
-    </Reference>
-    <Reference Include="Bolt.Flow.Editor">
-      <HintPath>Assets\Plugins\Assemblies\Bolt.Flow.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Bolt.Core.Editor">
       <HintPath>Assets\Plugins\Assemblies\Bolt.Core.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="MiscUtil">
-      <HintPath>Assets\Plugins\Assemblies\MiscUtil.dll</HintPath>
+    <Reference Include="Bolt.Core.Runtime">
+      <HintPath>Assets\Plugins\Assemblies\Bolt.Core.Runtime.dll</HintPath>
     </Reference>
-    <Reference Include="Ludiq.Core.Editor">
-      <HintPath>Assets\Plugins\Assemblies\Ludiq.Core.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Threading">
-      <HintPath>Assets\Plugins\Assemblies\System.Threading.dll</HintPath>
+    <Reference Include="Bolt.Flow.Editor">
+      <HintPath>Assets\Plugins\Assemblies\Bolt.Flow.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Bolt.Flow.Runtime">
       <HintPath>Assets\Plugins\Assemblies\Bolt.Flow.Runtime.dll</HintPath>
     </Reference>
-    <Reference Include="YamlDotNet">
-      <HintPath>Assets\Plugins\Assemblies\YamlDotNet.dll</HintPath>
+    <Reference Include="Bolt.State.Editor">
+      <HintPath>Assets\Plugins\Assemblies\Bolt.State.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Bolt.State.Runtime">
+      <HintPath>Assets\Plugins\Assemblies\Bolt.State.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Ionic.Zip">
       <HintPath>Assets\Plugins\Assemblies\Ionic.Zip.dll</HintPath>
     </Reference>
-    <Reference Include="Bolt.Core.Runtime">
-      <HintPath>Assets\Plugins\Assemblies\Bolt.Core.Runtime.dll</HintPath>
+    <Reference Include="Ludiq.Core.Editor">
+      <HintPath>Assets\Plugins\Assemblies\Ludiq.Core.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Bolt.State.Runtime">
-      <HintPath>Assets\Plugins\Assemblies\Bolt.State.Runtime.dll</HintPath>
+    <Reference Include="Ludiq.Core.Runtime">
+      <HintPath>Assets\Plugins\Assemblies\Ludiq.Core.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Ludiq.Graphs.Editor">
       <HintPath>Assets\Plugins\Assemblies\Ludiq.Graphs.Editor.dll</HintPath>
@@ -271,33 +256,50 @@
     <Reference Include="Ludiq.Graphs.Runtime">
       <HintPath>Assets\Plugins\Assemblies\Ludiq.Graphs.Runtime.dll</HintPath>
     </Reference>
+    <Reference Include="Ludiq.Platforms">
+      <HintPath>Assets\Plugins\Assemblies\Ludiq.Platforms.dll</HintPath>
+    </Reference>
+    <Reference Include="MiscUtil">
+      <HintPath>Assets\Plugins\Assemblies\MiscUtil.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Assets\Plugins\Assemblies\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="SharpRaven">
       <HintPath>Assets\Plugins\Assemblies\SharpRaven.dll</HintPath>
     </Reference>
+    <Reference Include="System.Threading">
+      <HintPath>Assets\Plugins\Assemblies\System.Threading.dll</HintPath>
+    </Reference>
+    <Reference Include="YamlDotNet">
+      <HintPath>Assets\Plugins\Assemblies\YamlDotNet.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\C#\branch.cs" />
-    <Compile Include="Assets\C#\camera_move.cs" />
-    <Compile Include="Assets\C#\cloudmove.cs" />
-    <Compile Include="Assets\C#\createcloud.cs" />
-    <Compile Include="Assets\C#\gamestart.cs" />
-    <Compile Include="Assets\C#\NPC\NPC属性.cs" />
-    <Compile Include="Assets\C#\NPC\伐木工.cs" />
-    <Compile Include="Assets\C#\UI\GP显示.cs" />
-    <Compile Include="Assets\C#\UI\HP显示.cs" />
-    <Compile Include="Assets\C#\UI\HP条.cs" />
-    <Compile Include="Assets\C#\UI\jnmbkg.cs" />
-    <Compile Include="Assets\C#\UI\month显示.cs" />
-    <Compile Include="Assets\C#\UI\WR显示.cs" />
-    <Compile Include="Assets\C#\UI\year显示.cs" />
-    <Compile Include="Assets\C#\utility.cs" />
-    <Compile Include="Assets\C#\属性及变量\GP.cs" />
-    <Compile Include="Assets\C#\属性及变量\HIGH.cs" />
-    <Compile Include="Assets\C#\属性及变量\HP.cs" />
-    <Compile Include="Assets\C#\属性及变量\TIME.cs" />
-    <Compile Include="Assets\C#\属性及变量\WATER.cs" />
-    <Compile Include="Assets\C#\属性及变量\WEATHER.cs" />
-    <Compile Include="Assets\C#\生成敌人.cs" />
+    <Compile Include="Assets\Script\branch.cs" />
+    <Compile Include="Assets\Script\camera_move.cs" />
+    <Compile Include="Assets\Script\cloudmove.cs" />
+    <Compile Include="Assets\Script\createcloud.cs" />
+    <Compile Include="Assets\Script\Entity\BaseEntity.cs" />
+    <Compile Include="Assets\Script\Entity\Enemy\WoodCutter.cs" />
+    <Compile Include="Assets\Script\Entity\EntityManager.cs" />
+    <Compile Include="Assets\Script\Entity\MovingEntity.cs" />
+    <Compile Include="Assets\Script\gamestart.cs" />
+    <Compile Include="Assets\Script\UI\GP显示.cs" />
+    <Compile Include="Assets\Script\UI\HP显示.cs" />
+    <Compile Include="Assets\Script\UI\HP条.cs" />
+    <Compile Include="Assets\Script\UI\jnmbkg.cs" />
+    <Compile Include="Assets\Script\UI\month显示.cs" />
+    <Compile Include="Assets\Script\UI\WR显示.cs" />
+    <Compile Include="Assets\Script\UI\year显示.cs" />
+    <Compile Include="Assets\Script\utility.cs" />
+    <Compile Include="Assets\Script\属性及变量\GP.cs" />
+    <Compile Include="Assets\Script\属性及变量\HIGH.cs" />
+    <Compile Include="Assets\Script\属性及变量\HP.cs" />
+    <Compile Include="Assets\Script\属性及变量\TIME.cs" />
+    <Compile Include="Assets\Script\属性及变量\WATER.cs" />
+    <Compile Include="Assets\Script\属性及变量\WEATHER.cs" />
+    <Compile Include="Assets\Script\生成敌人.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Bolt Documentation\0. READ ME FIRST.txt" />
