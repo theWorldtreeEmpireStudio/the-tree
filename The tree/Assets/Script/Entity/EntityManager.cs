@@ -11,15 +11,24 @@ public class EntityManager : MonoBehaviour
 	//敌人生成范围
 	public Vector3 m_enemy_startPos; 
 	public Vector3 m_enemy_endPos;
+    //时间控制
+    public int month;
+    public GameObject control;
 
 
-	void Start()
+
+    void Start()
 	{
 		Init (); //初始化
 	}
-
-	//初始化
-	public void Init()
+    //刷新时间
+    private void Update()
+    {
+        GameObject control = GameObject.Find("control");
+        month = control.GetComponent<TIME>().month;
+    }
+    //初始化
+    public void Init()
 	{
 		InitTree (); 
 		InitEnemy (); 
@@ -44,14 +53,17 @@ public class EntityManager : MonoBehaviour
 			Debug.LogError ("敌人列表为空!");
 		}
 		float randNum = 0;
-		for (int i = 0; i < num; ++i) {
-			//随机在指定范围内生成
-			randNum = Random.Range (m_enemy_startPos.x, m_enemy_endPos.x);
-			MovingEntity entity = GameObject.Instantiate (m_enemyPrefabs [0],
-				                      new Vector3 (randNum, m_enemy_startPos.y, m_enemy_startPos.z),
-				m_enemyPrefabs[0].transform.rotation) as MovingEntity;
-			entity.enabled = true;
-		}
+
+        
+        for (int i = 0; i < num; ++i)
+        {
+            //随机在指定范围内生成
+            randNum = Random.Range(m_enemy_startPos.x, m_enemy_endPos.x);
+            MovingEntity entity = GameObject.Instantiate(m_enemyPrefabs[0],
+            new Vector3(randNum, m_enemy_startPos.y, m_enemy_startPos.z),
+            m_enemyPrefabs[0].transform.rotation) as MovingEntity;
+            entity.enabled = true;
+        }
 	}
 
 	//初始化其它
