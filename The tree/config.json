@@ -1,0 +1,8 @@
+{
+	"System":{
+		"GameSpeed" : 180,
+		"EnemyCreateDelta" : 1000,
+		"StartEnemyTime" : 1000,
+		"EnemyMaxCreateNum" : 5
+	}
+}

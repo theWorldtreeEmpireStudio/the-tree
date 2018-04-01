@@ -14,6 +14,10 @@ public class WoodCutter : MovingEntity
 	void Update ()
 	{
 		Move (); // 移动
+        if(transform.position.x < -482.0f)
+        {
+            GameObject.Destroy(this.gameObject);
+        }
 	}
 }
 
